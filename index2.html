@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="icon" type="image/x-icon" href="imagenes/icon.ico">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <img src="imagenes/logo.png" alt="logo" width="50">
+      <a href="index.html#inicio">Inicio</a>
+      <a href="index.html#productos">Productos</a>
+      <a href="index.html#contacto">Contacto</a>
+      <a href="#seccion3"Carrito>
+        <img src="imagenes/carrito.png" alt="carrito" width="25">
+      </a>
+    </nav>
+  </header>
+  <main>
+    <section id="rolls">
+      <h1>Rolls</h1>
+      <h3>Personaliza tus rolls según tus preferencias</h3>
+      <img src="imagenes/roll.png" alt="roll1">
+      <form action="/action_page.php" method="get">
+        <p>Elige un sabor:</p>
+        <input type="radio" id="canela" name="canela" value="canela">
+        <label for="canela">Canela</label><br>
+        <input type="radio" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate</label><br>
+        <label for="toppings">Elige un topping:</label>
+        <select id="toppings>
+          <option value="glaseado_limon">Glaseado limón</option>
+          <option value="glaseado_vainilla">Glaseado vainilla</option>
+          <option value="ddl">Dulce de leche</option>
+          <option value="chocolate_top">Chocolate</option>
+        </select>
+        <label for="extras">Agrega extras:</label>
+          <input type="checkbox" value="frutilla">Frutilla</input>
+          <input type="checkbox" value="kitkat">Kit kat</input>
+          <input type="checkbox" value="kinder">Kinder</input>
+          <input type="checkbox" value="malvavisco">Malvavisco</input>
+        <button type="submit">Hacer pedido</button>
+      </form>
+    </section>
+
+    <section id="brownies">
+      <h1>Brownies</h1>
+      <h3>Personaliza tus brownies según tus preferencias</h3>
+      <img src="imagenes/Cups_brownies.png" alt="cupsb">
+      <form action="/action_page.php" method="get">
+        <p>Elige una opción:</p>
+        <input type="radio" id="cups" name="cups" value="cups">
+        <label for="canela">Cups Brownies</label><br>
+        <input type="radio" id="bandeja" name="bandeja" value="bandeja">
+        <label for="chocolate">Bandeja</label><br>
+        <label for="toppings">Elige un topping:</label>
+        <select id="toppings>
+          <option value="ddl">Dulce de leche</option>
+          <option value="chocolate_top">Chocolate</option>
+          <option value="leche_condensada">Leche Condensada</option>
+          <option value="ninguno">Sin topping</option>
+        </select>
+        <label for="extras">Agrega extras:</label>
+          <input type="checkbox" value="frutilla">Frutilla</input>
+          <input type="checkbox" value="kitkat">Kit kat</input>
+          <input type="checkbox" value="kinder">Kinder</input>
+        <button type="submit">Hacer pedido</button>
+      </form>
+    </section>
+    
+  </main>
+
+  <footer>
+      <p>Mima's Cakes</p>
+      <ul class="contacto">
+        <li>
+          <p>Instragram</p>
+          <a href="https://www.instagram.com/mimascakes_/" target="_blank">
+            <img src="imagenes/instagram.png" alt="instagram">
+          </a>
+        </li>
+        <li>
+          <p>Nuestro Whatsapp</p>
+          <a href="https://wa.me/5493764615912" target="_blank">
+            <img src="imagenes/whatsapp.png" alt="whatsapp">
+          </a>
+        </li>
+        <li>
+          <p>Ubicación</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.530936649662!2d-55.90784792447162!3d-27.35912937638401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be25ccba50d5%3A0x6cae21b99b8cc88c!2sD%C3%A1vila%201128%2C%20N3301JOA%20Posadas%2C%20Misiones!5e0!3m2!1sen!2sar!4v1724863023107!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </li>
+      </ul>
+  </footer>
+</html>

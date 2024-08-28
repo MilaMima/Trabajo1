@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav img.logo {
+  margin-left: 15px;
+}
+
+section,
+article {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inicio {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.inicio h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.inicio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section h2,
+section h3,
+article h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+section p,
+article p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+section img,
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contacto {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.contacto li {
+  margin-bottom: 15px;
+}
+
+.contacto img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav img.logo {
+    margin: 0 auto 10px auto;
+  }
+}
